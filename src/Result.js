@@ -84,7 +84,7 @@ export const Result = () => {
                   <TableCell component="th" scope="row">
                     {entry[0]}
                   </TableCell>
-                  <TableCell align="right">{entry[0].toString()}</TableCell>
+                  <TableCell align="right">{entry[1].toString()}</TableCell>
                 </TableRow>
               ))}
             </TableBody>
